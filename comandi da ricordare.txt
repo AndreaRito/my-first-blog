@@ -44,6 +44,8 @@ $ git push
 
 
 
+
+
 Pythonanywhere: configurare PythonAnywhere come web app
 su nuovo bash, che gira su linux:
 
@@ -53,7 +55,13 @@ configurare automaticamente la nostra applicazione da GitHub:
 $ pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git
 
 
+AGGIORNARE CODICE SU PythonAnywhere
+Apri la pagina Console PythonAnywhere e vai alla tua Bash console (o iniziane una nuova). Quindi, esegui:
 
+$ cd ~/andrearito.pythonanywhere.com
+$ git pull
+[...]
 
+Infine, fai un salto alla scheda Web https://www.pythonanywhere.com/web_app_setup/ e premi Reload sulla tua web app.
 
 
