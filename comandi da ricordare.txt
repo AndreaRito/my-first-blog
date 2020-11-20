@@ -1,0 +1,13 @@
+Comandi avvio server:
+python manage.py runserver    
+http://127.0.0.1:8000/admin
+
+
+Comandi Git
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+$ git config --global user.name "Your Name"
+$ git config --global user.email you@example.com
+
+git status restituisce informazioni riguardanti qualsiasi
+ file non tracciato/modificato/in staging, lo stato del branch e molto altro.
