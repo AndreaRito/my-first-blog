@@ -3,11 +3,57 @@ python manage.py runserver
 http://127.0.0.1:8000/admin
 
 
+
+
+
+
 Comandi Git
 $ git init
 Initialized empty Git repository in ~/djangogirls/.git/
 $ git config --global user.name "Your Name"
 $ git config --global user.email you@example.com
 
-git status restituisce informazioni riguardanti qualsiasi
- file non tracciato/modificato/in staging, lo stato del branch e molto altro.
+git status 
+restituisce informazioni riguardanti qualsiasi file non
+tracciato/modificato/in staging, lo stato del branch e 
+molto altro.
+
+git commit -m "My Django Girls app, first commit"
+
+
+collegare il repository Git sul tuo computer a quello su GitHub.
+$ git remote add origin https://github.com/AndreaRito/my-first-blog.git  
+$ git push -u origin master
+
+
+AGGIORNARE Git
+$ git status
+
+Assicurati di essere nella directory djangogirls e diciamo a git di includere tutte le modifiche in questa directory:
+$ git add --all .
+
+Nota --all significa che git riconoscerà anche se hai eliminato dei files (di default riconosce solo i file nuovi o modificati). Ricorda anche (dal capitolo 3) che il . significa la directory attuale.
+Prima di caricare tutti i file, proviamo a controllare cosa caricherà git (tutti i file che caricherà git ora appariranno in verde):
+$ git status
+
+Ci siamo quasi, ora è il momento di dirgli di salvare questa modifica nella cronologia. Gli daremo un "messaggio di commit" dove descriviamo ciò che abbiamo modificato. Puoi digitare tutto quello che vuoi a questo punto, sarebbe utile scrivere qualcosa di descrittivo in modo da ricordare in futuro cos'hai fatto.
+$ git commit -m "Ho cambiato l'HTML per questo sito."
+
+Quando hai finito, caricheremo (push) le nostre modifiche su Github:
+$ git push
+
+
+
+Pythonanywhere: configurare PythonAnywhere come web app
+su nuovo bash, che gira su linux:
+
+$ pip3.6 install --user pythonanywhere
+
+configurare automaticamente la nostra applicazione da GitHub:
+$ pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git
+
+
+
+
+
+
