@@ -49,7 +49,7 @@ su nuovo bash, che gira su linux:
 $ pip3.6 install --user pythonanywhere
 
 configurare automaticamente la nostra applicazione da GitHub:
-$ pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git
+$ pa_autoconfigure_django.py https://github.com/<andrearito>/my-first-blog.git
 
 
 AGGIORNARE CODICE SU PythonAnywhere
