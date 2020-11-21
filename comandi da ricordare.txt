@@ -1,3 +1,7 @@
+avvio del VIRTUAL VENV 
+$ source myvenv/bin/activate
+$ myvenv/bin/activate
+
 Comandi avvio server:
 python manage.py runserver    
 http://127.0.0.1:8000/admin
@@ -100,3 +104,7 @@ Come hai visto, alcuni metodi su Post.objects restituiscono un QuerySet. Gli ste
 
 esciiii
 exit()
+
+
+
+selettori CSS http://www.w3schools.com/cssref/css_selectors.asp
