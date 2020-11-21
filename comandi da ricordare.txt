@@ -61,7 +61,12 @@ Apri la pagina Console PythonAnywhere e vai alla tua Bash console (o iniziane un
 
 $ cd ~/andrearito.pythonanywhere.com
 $ git pull
-[...]
+
+Attiva myvenv=  
+workon andrearito.pythonanywhere.com
+
+Mod CSS file
+python manage.py collectstatic
 
 Infine, fai un salto alla scheda Web https://www.pythonanywhere.com/web_app_setup/ e premi Reload sulla tua web app.
 
