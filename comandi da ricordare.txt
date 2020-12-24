@@ -12,8 +12,8 @@ http://127.0.0.1:8000/admin
 Comandi Git
 $ git init
 Initialized empty Git repository in ~/djangogirls/.git/
-$ git config --global user.name "Your Name"
-$ git config --global user.email you@example.com
+$ git config --global user.name "AndreaRito"
+$ git config --global user.email email
 
 git status 
 restituisce informazioni riguardanti qualsiasi file non
@@ -53,7 +53,7 @@ su nuovo bash, che gira su linux:
 $ pip3.6 install --user pythonanywhere
 
 configurare automaticamente la nostra applicazione da GitHub:
-$ pa_autoconfigure_django.py https://github.com/<andrearito>/my-first-blog.git
+$ pa_autoconfigure_django.py https://github.com/Andrearito/my-first-blog.git
 
 
 AGGIORNARE CODICE SU PythonAnywhere
